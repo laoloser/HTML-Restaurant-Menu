@@ -38,7 +38,7 @@ nav ul {
 }
 
 nav li {
-    display: inline;
+    display: inline;                                    
 }
 
 nav a {
@@ -67,11 +67,23 @@ nav a:hover {
     display: inline-block;
     background-color: white;
     border: 5px solid green;
-    border-radius: 5px;
+    border-radius: 20px;
     color: darkred;
     font-size: 2em;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
+}
+
+.locations {
+    list-style: none;
+    display: inline-block;
+    background-color: white;
+    border: 5px solid green;
+    border-radius: 20px;
+    color: darkred;
+    padding: 10px;
+    margin: 10px;
+
 }
 
 table {
@@ -83,4 +95,10 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+footer{
+    background-color:white;
+    padding: 10px;
+    border: 4px green solid;
+    margin: 10px;
 }
